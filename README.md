@@ -34,7 +34,7 @@ Ce projet est un générateur d'images qui, étant donné un titre ou un sujet, 
 
 3. Créez un compte sur [Unsplash](https://unsplash.com/developers) et obtenez une clé API
 
-4. Créez un fichier `config.py` à la racine du projet et ajoutez votre clé API :
+4. Créez un fichier `.env` à la racine du projet et ajoutez votre clé API :
 
 ```python
 UNSPLASH_API_KEY = "votre-clé-api-ici"
@@ -42,7 +42,7 @@ UNSPLASH_API_KEY = "votre-clé-api-ici"
 
 ## Utilisation
 
-Exécutez le script `image_generator.py` en passant le titre et le sous-titre comme arguments, par exemple :
+Exécutez le script `script.py` en passant le titre et le sous-titre comme arguments, par exemple :
 
 ```sh
 python script.py "AI" "Technology for the futur" --quality 90 --per_page 5
