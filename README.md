@@ -4,58 +4,59 @@
 
 ## Description
 
-Ce projet est un générateur d'images qui, étant donné un titre ou un sujet, recherche une image pertinente sur Unsplash et la modifie en ajoutant un titre, un sous-titre et un code QR.
+This project is an image generator that, given a title or topic, searches for a relevant image on Unsplash and modifies it by adding a title, a subtitle, and a QR code.
 
-## Fonctionnalités
+## Features
 
-* Recherche d'images sur Unsplash en fonction d'un titre ou d'un sujet
-* Modification des images en ajoutant un titre, un sous-titre et un code QR
-* Génération d'images prêtes à l'emploi pour les présentations, les billets de blog, les réseaux sociaux, etc.
+* Searches for images on Unsplash based on a title or topic
+* Modifies images by adding a title, a subtitle, and a QR code
+* Generates ready-to-use images for presentations, blog posts, social media, etc.
 
-## Technologies utilisées
+## Technology Used
 
 * Python
 * API Unsplash
-* Pillow (bibliothèque Python pour la manipulation d'images)
-* qrcode (bibliothèque Python pour la génération de codes QR)
+* Pillow (Python library for image manipulation))
+* qrcode (Python library for QR code generation)
 
 ## Installation
 
-1. Clonez ce dépôt :
+1. Clone this repository :
    ```
    git clone https://github.com/mcrai-dev/web-scraping-bot.git
    cd web-scraping-bot
    ```
 
-2. Installez les dépendances requises :
+2. Install the required dependencies :
    ```
    pip install -r requirements.txt
    ```
 
-3. Créez un compte sur [Unsplash](https://unsplash.com/developers) et obtenez une clé API
+3. Create an account on [Unsplash](https://unsplash.com/developers) and obtain an API key
 
-4. Créez un fichier `.env` à la racine du projet et ajoutez votre clé API :
+4. Create a `.env` file at the root of the project and add your API key :
 
 ```python
 UNSPLASH_API_KEY = "votre-clé-api-ici"
 ```
 
-## Utilisation
+## Usage
 
-Exécutez le script `script.py` en passant le titre et le sous-titre comme arguments, par exemple :
+Run the `script.py` script by passing the title and subtitle as arguments, for example :
 
 ```sh
 python script.py "AI" "Technology for the futur" --quality 90 --per_page 5
 ```
 
 Options :
-- `--quality` : Qualité de l'image de sortie (0-100, par défaut : 85)
-- `--per_page` : Nombre d'images à récupérer d'Unsplash (par défaut : 3)
-
+- `--quality` : Quality of the output image (0-100, default: 85)
+- `--per_page` : Number of images to retrieve from Unsplash (default: 3)
+  
 ## Contribution
 
-Les contributions sont les bienvenues ! N'hésitez pas à ouvrir une issue ou à soumettre une pull request.
+Contributions are welcome! Feel free to open an issue or submit a pull request.
+
 
 ## Licence
 
-Ce projet est sous licence MIT. Voir le fichier [LICENSE](LICENSE) pour plus de détails.# web-scraping-bot
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.# web-scraping-bot
