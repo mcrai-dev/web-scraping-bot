@@ -23,8 +23,8 @@ Ce projet est un générateur d'images qui, étant donné un titre ou un sujet, 
 
 1. Clonez ce dépôt :
    ```
-   git clone https://github.com/votre-nom-utilisateur/image-generator.git
-   cd image-generator
+   git clone https://github.com/mcrai-dev/web-scraping-bot.git
+   cd web-scraping-bot
    ```
 
 2. Installez les dépendances requises :
